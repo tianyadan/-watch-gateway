@@ -1,0 +1,10 @@
+{
+  "name": "watch-gateway-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal MCP server that calls a local watch-gateway",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  }
+}

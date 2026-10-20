@@ -1,0 +1,15 @@
+.idea
+.vscode
+
+watch-gateway
+watch-gateway-linux
+
+*.log
+.DS_Store
+
+# 私人线路、坐标、token — 只用 config.example.yaml 进仓库
+config.yaml
+.env
+.env.*
+
+examples/mcp/node_modules/

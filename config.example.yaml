@@ -1,0 +1,39 @@
+# 复制为 config.yaml 后按自己的线路填写。
+# config.yaml 含私人站点与坐标，请勿提交到 Git。
+server:
+  addr: ":28085"
+  # 仅 legacy 接口（/watch/bus/home|work）需要
+  auth_token: "change-me"
+
+routes:
+  # 示例：下班回家（虚构数据，请换成你自己的）
+  - hash: "demo-home"
+    city: "示例市"
+    city_id: "000"
+    line: "1"
+    line_id: "0000-1-1"
+    scene: "回家"
+    from: "示例起点站"
+    to: "示例终点站"
+    target_order: 10
+    station_id: "0000-1"
+    station_lat: "0.000000"
+    station_lng: "0.000000"
+    legacy: "home"
+    bark: false
+
+  # 示例：上班（虚构数据）
+  - hash: "demo-work"
+    city: "示例市"
+    city_id: "000"
+    line: "1"
+    line_id: "0000-1-0"
+    scene: "上班"
+    from: "示例办公站"
+    to: "示例园区站"
+    target_order: 20
+    station_id: "0000-2"
+    station_lat: "0.000001"
+    station_lng: "0.000001"
+    legacy: "work"
+    bark: false

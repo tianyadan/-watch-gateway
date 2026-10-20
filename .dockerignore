@@ -1,0 +1,9 @@
+.git
+.gitignore
+.idea
+.vscode
+
+watch-gateway
+
+*.log
+.DS_Store
